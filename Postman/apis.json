@@ -1,0 +1,1037 @@
+{
+	"version": 1,
+	"collections": [
+		{
+			"id": "3571150f-8995-40c7-b6f4-ededb10f393b",
+			"uid": "0-3571150f-8995-40c7-b6f4-ededb10f393b",
+			"name": "API Genres",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"variables": [],
+			"order": [
+				"5a8d9528-e4fe-4a87-9fa6-64d35aae6a2a",
+				"9e3fc57e-7281-415e-a06c-03d0826691d6",
+				"dd1c759e-0f90-4cc0-ac6a-5bb1248b8218",
+				"9515d196-bae3-4592-8c20-53d93a6c6560",
+				"92632c19-c53a-4b6b-a59f-5510e41fd770"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {},
+			"createdAt": "2022-10-04T02:18:38.518Z",
+			"folders": [],
+			"requests": [
+				{
+					"id": "5a8d9528-e4fe-4a87-9fa6-64d35aae6a2a",
+					"uid": "0-5a8d9528-e4fe-4a87-9fa6-64d35aae6a2a",
+					"name": "GetAll",
+					"url": "{{server}}/genres",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "3571150f-8995-40c7-b6f4-ededb10f393b",
+					"pathVariables": {}
+				},
+				{
+					"id": "92632c19-c53a-4b6b-a59f-5510e41fd770",
+					"uid": "0-92632c19-c53a-4b6b-a59f-5510e41fd770",
+					"name": "AddOne",
+					"url": "{{server}}/genres",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "3571150f-8995-40c7-b6f4-ededb10f393b",
+					"rawModeData": "{\r\n    \"name\": \"Animer\",\r\n    \"moviesIds\": [],\r\n    \"image\": \"https://w7.pngwing.com/pngs/386/931/png-transparent-beyond-the-boundary-anime-drawing-animated-film-anime-mammal-face-manga.png\"\r\n}",
+					"pathVariables": {}
+				},
+				{
+					"id": "9515d196-bae3-4592-8c20-53d93a6c6560",
+					"uid": "0-9515d196-bae3-4592-8c20-53d93a6c6560",
+					"name": "UpdateOne",
+					"url": "{{server}}/genres/2",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "3571150f-8995-40c7-b6f4-ededb10f393b",
+					"rawModeData": "{\r\n    \"name\": \"Anime\",\r\n    \"moviesIds\": [],\r\n    \"image\": \"https://w7.pngwing.com/pngs/386/931/png-transparent-beyond-the-boundary-anime-drawing-animated-film-anime-mammal-face-manga.png\"\r\n}",
+					"pathVariables": {}
+				},
+				{
+					"id": "9e3fc57e-7281-415e-a06c-03d0826691d6",
+					"uid": "0-9e3fc57e-7281-415e-a06c-03d0826691d6",
+					"name": "GetOne",
+					"url": "{{server}}/genres/2",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "3571150f-8995-40c7-b6f4-ededb10f393b",
+					"pathVariables": {}
+				},
+				{
+					"id": "dd1c759e-0f90-4cc0-ac6a-5bb1248b8218",
+					"uid": "0-dd1c759e-0f90-4cc0-ac6a-5bb1248b8218",
+					"name": "DeleteOne",
+					"url": "{{server}}/genres/5",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "3571150f-8995-40c7-b6f4-ededb10f393b",
+					"pathVariables": {}
+				}
+			]
+		},
+		{
+			"id": "9cb962f0-847e-4552-8fad-06accbc18564",
+			"uid": "0-9cb962f0-847e-4552-8fad-06accbc18564",
+			"name": "API Security",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"variables": [],
+			"order": [
+				"d7487503-08e3-4aab-ae8a-57193133e7fd",
+				"97b63015-0039-4849-adc7-34b5691159fc"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {},
+			"createdAt": "2022-10-07T15:42:38.558Z",
+			"folders": [],
+			"requests": [
+				{
+					"id": "97b63015-0039-4849-adc7-34b5691159fc",
+					"uid": "0-97b63015-0039-4849-adc7-34b5691159fc",
+					"name": "RegisterUser",
+					"url": "{{server}}/auth/register",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "noauth",
+						"noauth": []
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "9cb962f0-847e-4552-8fad-06accbc18564",
+					"rawModeData": "{\r\n  \"userName\": \"test\",\r\n  \"passWord\": \"test1\",\r\n  \"email\": \"emaillocal@localhost.com\"\r\n}",
+					"pathVariables": {}
+				},
+				{
+					"id": "d7487503-08e3-4aab-ae8a-57193133e7fd",
+					"uid": "0-d7487503-08e3-4aab-ae8a-57193133e7fd",
+					"name": "LoginUser (GetToken)",
+					"url": "{{server}}/auth/login",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "noauth",
+						"noauth": []
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "8ab2d735-f032-4ee6-9f13-2a0318996650",
+								"exec": [
+									"var json = JSON.parse(responseBody);\r",
+									"pm.environment.set(\"token\", `${json.token}`);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "var json = JSON.parse(responseBody);\r\npm.environment.set(\"token\", `${json.token}`);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "9cb962f0-847e-4552-8fad-06accbc18564",
+					"rawModeData": "{\r\n  \"username\": \"test\",\r\n  \"password\": \"test1\"\r\n}",
+					"pathVariables": {}
+				}
+			]
+		},
+		{
+			"id": "b91ab46e-28fe-446e-87dc-9a258ed9b6de",
+			"uid": "0-b91ab46e-28fe-446e-87dc-9a258ed9b6de",
+			"name": "API Movies",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"variables": [],
+			"order": [
+				"7b8c8f33-1838-4bf2-b5f5-d893cf5d8626",
+				"938741bc-e277-4e54-96b8-502676830b03",
+				"f8c0c057-d1f2-44f2-bb54-2d2a2ebd061d",
+				"7e78bab6-36f0-4812-80ed-433e8643219c",
+				"920f4504-5008-479c-a4b4-f496ced30cb9",
+				"2cf7a91f-9468-4d49-a2f7-609b4bf2d39b",
+				"50081874-2634-4587-af25-b453ca9d064e",
+				"4433aa43-7220-40c7-9457-463d1205987d"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {},
+			"createdAt": "2022-10-03T21:52:53.338Z",
+			"folders": [],
+			"requests": [
+				{
+					"id": "2cf7a91f-9468-4d49-a2f7-609b4bf2d39b",
+					"uid": "0-2cf7a91f-9468-4d49-a2f7-609b4bf2d39b",
+					"name": "DeleteOne",
+					"url": "{{server}}/movies/3",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "b91ab46e-28fe-446e-87dc-9a258ed9b6de",
+					"pathVariables": {}
+				},
+				{
+					"id": "4433aa43-7220-40c7-9457-463d1205987d",
+					"uid": "0-4433aa43-7220-40c7-9457-463d1205987d",
+					"name": "AddOne",
+					"url": "{{server}}/movies",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "b91ab46e-28fe-446e-87dc-9a258ed9b6de",
+					"rawModeData": "{\r\n    \"title\": \"Toy Story\",\r\n    \"image\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJzAvb8vFlI_NhQWAKMNDqDLXLBwG7uAtrXpbTiZGq5foib83-\",\r\n    \"createdAt\": \"1995-02-19\",\r\n    \"rating\": 4.5,\r\n    \"charactersIds\": [3],\r\n    \"genre\": 1\r\n}",
+					"pathVariables": {}
+				},
+				{
+					"id": "50081874-2634-4587-af25-b453ca9d064e",
+					"uid": "0-50081874-2634-4587-af25-b453ca9d064e",
+					"name": "UpdateOne",
+					"url": "{{server}}/movies/2",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "b91ab46e-28fe-446e-87dc-9a258ed9b6de",
+					"rawModeData": "{\r\n    \"title\": \"Toy Story\",\r\n    \"image\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJzAvb8vFlI_NhQWAKMNDqDLXLBwG7uAtrXpbTiZGq5foib83-\",\r\n    \"createdAt\": \"1995-02-19\",\r\n    \"rating\": 4,\r\n    \"charactersIds\": [3],\r\n    \"genre\": 2\r\n}",
+					"pathVariables": {}
+				},
+				{
+					"id": "7b8c8f33-1838-4bf2-b5f5-d893cf5d8626",
+					"uid": "0-7b8c8f33-1838-4bf2-b5f5-d893cf5d8626",
+					"name": "GetAll",
+					"url": "{{server}}/movies",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "b91ab46e-28fe-446e-87dc-9a258ed9b6de",
+					"pathVariables": {}
+				},
+				{
+					"id": "7e78bab6-36f0-4812-80ed-433e8643219c",
+					"uid": "0-7e78bab6-36f0-4812-80ed-433e8643219c",
+					"name": "FindByName",
+					"url": "{{server}}/movies?name=Leroy y Stitch",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [
+						{
+							"key": "name",
+							"value": "Leroy y Stitch",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						}
+					],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "b91ab46e-28fe-446e-87dc-9a258ed9b6de",
+					"pathVariables": {}
+				},
+				{
+					"id": "920f4504-5008-479c-a4b4-f496ced30cb9",
+					"uid": "0-920f4504-5008-479c-a4b4-f496ced30cb9",
+					"name": "FindByGenre",
+					"url": "{{server}}/movies?genre=1",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [
+						{
+							"key": "genre",
+							"value": "1",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						}
+					],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "b91ab46e-28fe-446e-87dc-9a258ed9b6de",
+					"pathVariables": {}
+				},
+				{
+					"id": "938741bc-e277-4e54-96b8-502676830b03",
+					"uid": "0-938741bc-e277-4e54-96b8-502676830b03",
+					"name": "GetAllByOrder",
+					"url": "{{server}}/movies?order=desc",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [
+						{
+							"key": "order",
+							"value": "desc",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						}
+					],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "b91ab46e-28fe-446e-87dc-9a258ed9b6de",
+					"pathVariables": {}
+				},
+				{
+					"id": "f8c0c057-d1f2-44f2-bb54-2d2a2ebd061d",
+					"uid": "0-f8c0c057-d1f2-44f2-bb54-2d2a2ebd061d",
+					"name": "GetOne",
+					"url": "{{server}}/movies/2",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "b91ab46e-28fe-446e-87dc-9a258ed9b6de",
+					"pathVariables": {}
+				}
+			]
+		},
+		{
+			"id": "d704eaff-8eb6-4806-8e28-e6a811967d4e",
+			"uid": "0-d704eaff-8eb6-4806-8e28-e6a811967d4e",
+			"name": "API Characters",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"variables": [],
+			"order": [
+				"ffada691-3d75-4c50-85f8-22e02bae45f9",
+				"70fec8e8-90c9-4afc-bc9a-ddcb95f2f079",
+				"0a0fed67-021a-41b3-ab4d-118fca46473d",
+				"c44dfc2c-e517-4a74-ac6a-029fb70cc080",
+				"82c210e7-8a31-4dba-a7d8-87ebabdcddfd",
+				"519a6c57-6f9b-40bc-9948-83caf80d26de",
+				"db80ccf2-582b-4d18-ac7f-d4a8ee577392",
+				"2c5656e9-2db2-4117-a4b4-e993d5864f5d",
+				"bbdaf6a3-dd6b-43ef-8634-2cfdff7c1af0"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {},
+			"createdAt": "2022-10-02T19:40:16.038Z",
+			"folders": [],
+			"requests": [
+				{
+					"id": "0a0fed67-021a-41b3-ab4d-118fca46473d",
+					"uid": "0-0a0fed67-021a-41b3-ab4d-118fca46473d",
+					"name": "FindByName",
+					"url": "{{server}}/characters?name=Stitch",
+					"description": null,
+					"data": [],
+					"dataOptions": null,
+					"dataMode": "raw",
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [
+						{
+							"key": "name",
+							"value": "Stitch",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						}
+					],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "d704eaff-8eb6-4806-8e28-e6a811967d4e",
+					"rawModeData": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "2c5656e9-2db2-4117-a4b4-e993d5864f5d",
+					"uid": "0-2c5656e9-2db2-4117-a4b4-e993d5864f5d",
+					"name": "UpdateOne",
+					"url": "{{server}}/characters/3",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "d704eaff-8eb6-4806-8e28-e6a811967d4e",
+					"rawModeData": "{\r\n    \"weight\": 6,\r\n    \"age\": 70,\r\n    \"name\": \"Woody\",\r\n    \"image\": \"https://ss425.liverpool.com.mx/xl/1100180771.jpg\",\r\n    \"history\": \"Es un juguete leal que ha sido el juguete favorito de Andy desde la guardería. Es determinado, apasionado, y haría cualquier cosa por sus amigos más queridos y cercanos.\",\r\n    \"moviesIds\": [] \r\n}",
+					"pathVariables": {}
+				},
+				{
+					"id": "519a6c57-6f9b-40bc-9948-83caf80d26de",
+					"uid": "0-519a6c57-6f9b-40bc-9948-83caf80d26de",
+					"name": "FindByWeight",
+					"url": "{{server}}/characters?weight=15",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [
+						{
+							"key": "weight",
+							"value": "15",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						}
+					],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "d704eaff-8eb6-4806-8e28-e6a811967d4e",
+					"pathVariables": {}
+				},
+				{
+					"id": "70fec8e8-90c9-4afc-bc9a-ddcb95f2f079",
+					"uid": "0-70fec8e8-90c9-4afc-bc9a-ddcb95f2f079",
+					"name": "GetOne",
+					"url": "{{server}}/characters/3",
+					"description": null,
+					"data": [],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "d704eaff-8eb6-4806-8e28-e6a811967d4e",
+					"pathVariables": {}
+				},
+				{
+					"id": "82c210e7-8a31-4dba-a7d8-87ebabdcddfd",
+					"uid": "0-82c210e7-8a31-4dba-a7d8-87ebabdcddfd",
+					"name": "FindByMovie",
+					"url": "{{server}}/characters?movies=3",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [
+						{
+							"key": "movies",
+							"value": "3",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						}
+					],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "498f146d-88ad-482a-8d08-55384ef73ba9",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": null,
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "d704eaff-8eb6-4806-8e28-e6a811967d4e",
+					"pathVariables": {}
+				},
+				{
+					"id": "bbdaf6a3-dd6b-43ef-8634-2cfdff7c1af0",
+					"uid": "0-bbdaf6a3-dd6b-43ef-8634-2cfdff7c1af0",
+					"name": "AddOne",
+					"url": "{{server}}/characters",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "d704eaff-8eb6-4806-8e28-e6a811967d4e",
+					"rawModeData": "{\r\n    \"weight\": 5,\r\n    \"age\": 70,\r\n    \"name\": \"Woody\",\r\n    \"image\": \"https://ss425.liverpool.com.mx/xl/1100180771.jpg\",\r\n    \"history\": \"Es un juguete leal que ha sido el juguete favorito de Andy desde la guardería. Es determinado, apasionado, y haría cualquier cosa por sus amigos más queridos y cercanos.\",\r\n    \"moviesIds\": [] \r\n}",
+					"pathVariables": {}
+				},
+				{
+					"id": "c44dfc2c-e517-4a74-ac6a-029fb70cc080",
+					"uid": "0-c44dfc2c-e517-4a74-ac6a-029fb70cc080",
+					"name": "FindByAge",
+					"url": "{{server}}/characters?age=5",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [
+						{
+							"key": "age",
+							"value": "5",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						}
+					],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "d704eaff-8eb6-4806-8e28-e6a811967d4e",
+					"pathVariables": {}
+				},
+				{
+					"id": "db80ccf2-582b-4d18-ac7f-d4a8ee577392",
+					"uid": "0-db80ccf2-582b-4d18-ac7f-d4a8ee577392",
+					"name": "DeleteOne",
+					"url": "{{server}}/characters/4",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "d704eaff-8eb6-4806-8e28-e6a811967d4e",
+					"pathVariables": {}
+				},
+				{
+					"id": "ffada691-3d75-4c50-85f8-22e02bae45f9",
+					"uid": "0-ffada691-3d75-4c50-85f8-22e02bae45f9",
+					"name": "GetAll",
+					"url": "{{server}}/characters",
+					"description": null,
+					"data": [],
+					"dataOptions": null,
+					"dataMode": "raw",
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}"
+							}
+						]
+					},
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{token}}"
+					},
+					"collectionId": "d704eaff-8eb6-4806-8e28-e6a811967d4e",
+					"rawModeData": "",
+					"pathVariables": {}
+				}
+			]
+		}
+	],
+	"environments": [
+		{
+			"id": "d11dc2f8-32d9-4dc9-8a9f-ad5f93312172",
+			"name": "Alkemy - Challenge Java",
+			"values": [
+				{
+					"key": "server",
+					"value": "http://localhost:8080",
+					"type": "default",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "",
+					"type": "any",
+					"enabled": true
+				}
+			]
+		},
+		{
+			"id": "3d1f6547-d6f0-4bfe-91c5-4b9672a3e509",
+			"name": "My Workspace - globals",
+			"values": []
+		}
+	],
+	"headerPresets": [],
+	"globals": []
+}
